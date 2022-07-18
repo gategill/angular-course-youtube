@@ -7,9 +7,6 @@
       "extensions": [".html", ".js"]
   },
   "eslint.validate": [
-      "javascript",
-      {
-          "language": "html"      }
-  ]
-   
+      "javascript"
+    ]   
    }
