@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "eslint src/app/* --ext .ts,.tsx,.html,.css --fix",
-    "server" : "json-server --watch db.json --port 5000"
+    "lint": "eslint src/**/* --ext .ts,.tsx,.html,.css --fix",
+    "server": "json-server --watch db.json --port 5000"
   },
   "private": true,
   "dependencies": {
@@ -43,6 +43,8 @@
     "@typescript-eslint/parser": "^5.30.6",
     "eslint": "^8.20.0",
     "eslint-config-google": "^0.14.0",
+    "eslint-plugin-align-assignments": "^1.1.2",
+    "eslint-plugin-html": "^6.2.0",
     "jasmine-core": "~4.1.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
