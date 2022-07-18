@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "eslint src/app/* --ext .ts,.tsx,.html,.css --fix"
+    "lint": "eslint src/app/* --ext .ts,.tsx,.html,.css --fix",
+    "server" : "json-server --watch db.json --port 5000"
   },
   "private": true,
   "dependencies": {
