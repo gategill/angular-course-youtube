@@ -12,10 +12,7 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint",
-        "eslint-plugin-html",
-        "align-assignments", 
-        "html"
+        "@typescript-eslint"
     ],
 
     "settings": {
@@ -50,5 +47,4 @@
         "space-infix-ops": ["error", { "int32Hint": true }],
         "switch-colon-spacing": ["error", {"after": true, "before": false}]
       }
-
 }
